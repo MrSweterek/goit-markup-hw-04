@@ -1,0 +1,382 @@
+body {
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  background: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+}
+.body-portfolio {
+  height: 1800px;
+}
+.menu {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
+.menu-nav {
+  position: absolute;
+  width: 1400px;
+  height: 80px;
+  left: 150px;
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-start;
+}
+.list {
+  padding-top: 25px;
+}
+.logo {
+  cursor: pointer;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196f3;
+  text-decoration: none;
+}
+.logo-st {
+  cursor: pointer;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #08151f;
+  text-decoration: none;
+}
+.logo-sta {
+  cursor: pointer;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logo:visited {
+  color: #2196f3;
+}
+.header-menu {
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-menu:hover {
+  color: #2196f3;
+}
+.header-tel {
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 400px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-tel:hover {
+  color: #2196f3;
+}
+.header-mail {
+  cursor: pointer;
+  text-decoration: none;
+  padding-left: 25px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-mail:hover {
+  color: #2196f3;
+}
+.main {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  background-color: #2f303a;
+}
+.main-order-title {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 402px;
+  top: 230px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.main-order-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 640px;
+  top: 380px;
+  cursor: pointer;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.main-order-button-content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  align-items: center;
+  letter-spacing: 0.05em;
+  margin: auto;
+
+  color: #ffffff;
+}
+.stats {
+  position: absolute;
+  width: 1170px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+  display: inline;
+}
+.stats-list {
+  display: inline-block;
+  width: 270px;
+  height: 100px;
+  list-style-type: none;
+}
+.jobs {
+  position: absolute;
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 1075px;
+}
+.jobs-list {
+  display: inline;
+  list-style-type: none;
+}
+.jobs-image {
+  width: 370px;
+  height: 294px;
+}
+.jobs-title {
+  position: absolute;
+  width: 352px;
+  height: 42px;
+  left: 624px;
+  top: 969px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #212121;
+}
+.team {
+  position: absolute;
+  width: 1270px;
+  height: 368px;
+  left: 150px;
+  top: 1635px;
+}
+.team-list {
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+}
+.team-image {
+  width: 270px;
+  height: 260px;
+}
+.team-title {
+  position: absolute;
+  width: 210px;
+  height: 42px;
+  left: 695px;
+  top: 1543px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #212121;
+}
+.team-text-title {
+  width: 300px;
+}
+.team-text-content {
+  width: 300px;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 180px;
+  top: 2197px;
+  background-color: #2f303a;
+}
+.footer-portfolio {
+  position: absolute;
+  width: 1600px;
+  height: 180px;
+  top: 1600px;
+  background-color: #2f303a;
+}
+.footer-logo {
+  padding-left: 150px;
+  padding-top: 25px;
+}
+.footer-tel,
+.footer-mail {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  padding-left: 150px;
+  color: #ffffff;
+}
+.filters {
+  position: absolute;
+  width: 50%;
+  height: 54px;
+  left: 25%;
+  top: 174px;
+  align-content: center;
+}
+.filter-object {
+  width: 16px;
+  height: 16px;
+  left: 609px;
+  top: 212px;
+  display: inline;
+  list-style-type: none;
+}
+.filter-button {
+  width: 121px;
+  height: 38px;
+  left: 510px;
+  top: 174px;
+
+  background-color: #f5f4fa;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.filter-button-active {
+  background-color: #2196f3;
+  color: #f5f4fa;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width: 121px;
+  height: 38px;
+}
+.projects {
+  position: absolute;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 85%;
+  height: 404px;
+  left: 150px;
+  top: 262px;
+}
+.project-object {
+  width: 370px;
+  margin: 15px;
+  height: 404px;
+  left: 150px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.project-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.project-filter {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
