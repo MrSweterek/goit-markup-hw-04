@@ -197,6 +197,9 @@ p {
   list-style-type: none;
   padding: 25px;
 }
+.stats-description {
+  color: #757575;
+}
 .stats-item-svg {
   width: 270px;
   height: 100px;
