@@ -246,13 +246,21 @@ p {
 }
 .team-list {
   width: 300px;
+  height: 450px;
   text-align: center;
   display: inline-block;
   list-style-type: none;
+  background: #ffffff;
+  margin-left: 25px;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-image {
   width: 270px;
   height: 260px;
+  margin-top: 25px;
 }
 .team-title {
   position: absolute;
@@ -412,4 +420,38 @@ p {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  list-style-type: none;
+}
+.social-icon-list {
+  height: 100px;
+}
+.social-button {
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #ffffff;
+}
+.social-button:hover {
+  background-color: #2196f3;
+}
+.social-icon {
+  width: 35px;
+  height: 35px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
