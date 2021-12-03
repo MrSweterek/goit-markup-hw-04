@@ -432,6 +432,28 @@ p {
 
   color: #212121;
 }
+.clients {
+  display: flex;
+  padding: 25px;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.clients-list {
+  list-style-type: none;
+  width: 200px;
+  height: 100px;
+}
+.client-item-svg {
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  outline: 4px solid #afb1b8;
+  fill: #afb1b8;
+}
+.client-item-svg:hover {
+  fill: #2196f3;
+  outline: 4px solid #2196f3;
+}
 .icon {
   display: inline-block;
   width: 1rem;
