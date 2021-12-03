@@ -181,7 +181,7 @@ p {
 .stats {
   position: absolute;
   width: 1600px;
-  height: 101px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,9 +192,16 @@ p {
 }
 .stats-list {
   display: inline-block;
-  width: 270px;
+  width: 320px;
   height: 100px;
   list-style-type: none;
+  padding: 25px;
+}
+.stats-item-svg {
+  width: 270px;
+  height: 100px;
+  padding: 10px;
+  background-color: #f5f4fa;
 }
 .jobs {
   position: absolute;
