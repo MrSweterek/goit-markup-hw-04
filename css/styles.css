@@ -396,3 +396,20 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.clients-section {
+  height: 400px;
+}
+.clients-title {
+  align-content: center;
+  padding-top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
