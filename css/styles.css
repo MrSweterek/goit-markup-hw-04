@@ -127,11 +127,7 @@ p {
   color: #2196f3;
 }
 .main {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  top: 80px;
-  background-color: #2f303a;
+  padding-top: 80px;
 }
 .main-order-title {
   position: absolute;
@@ -175,13 +171,24 @@ p {
 
   color: #ffffff;
 }
+.main-order-section {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  background-color: #2f303a;
+}
 .stats {
   position: absolute;
-  width: 1170px;
+  width: 1600px;
   height: 101px;
-  left: 215px;
-  top: 774px;
-  display: inline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stats-section {
+  height: 980px;
+  padding-top: 680px;
 }
 .stats-list {
   display: inline-block;
@@ -191,10 +198,15 @@ p {
 }
 .jobs {
   position: absolute;
-  width: 1170px;
+  width: 1600px;
   height: 386px;
-  left: 215px;
-  top: 1075px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.jobs-section {
+  height: 500px;
 }
 .jobs-list {
   display: inline;
@@ -206,10 +218,8 @@ p {
 }
 .jobs-title {
   position: absolute;
-  width: 352px;
-  height: 42px;
-  left: 624px;
-  top: 969px;
+  width: 1600px;
+  height: 100px;
 
   font-family: Roboto;
   font-style: normal;
@@ -222,10 +232,17 @@ p {
 }
 .team {
   position: absolute;
-  width: 1270px;
-  height: 368px;
-  left: 150px;
-  top: 1635px;
+  display: flex;
+  width: 1600px;
+  height: 500px;
+  padding-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.team-section {
+  width: 1600px;
+  height: 700px;
+  background-color: #f5f4fa;
 }
 .team-list {
   width: 300px;
@@ -239,10 +256,10 @@ p {
 }
 .team-title {
   position: absolute;
-  width: 210px;
-  height: 42px;
-  left: 695px;
-  top: 1543px;
+  width: 1600px;
+  height: 100px;
+  padding-top: 50px;
+  justify-content: center;
 
   font-family: Roboto;
   font-style: normal;
@@ -263,14 +280,13 @@ p {
   position: absolute;
   width: 1600px;
   height: 180px;
-  top: 2197px;
   background-color: #2f303a;
 }
 .footer-portfolio {
   position: absolute;
+  bottom: 0px;
   width: 1600px;
   height: 180px;
-  top: 1600px;
   background-color: #2f303a;
 }
 .footer-logo {
