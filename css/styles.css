@@ -200,7 +200,24 @@ p {
   padding: 25px;
 }
 .stats-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
   color: #757575;
+}
+h3 {
+  padding-top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 .stats-item-svg {
   width: 270px;
@@ -219,6 +236,7 @@ p {
 }
 .jobs-section {
   height: 500px;
+  padding-top: 25px;
 }
 .jobs-list {
   display: inline;
@@ -234,7 +252,6 @@ p {
   position: absolute;
   width: 1600px;
   height: 100px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -485,9 +502,10 @@ p {
   height: 100px;
 }
 .social-button {
+  margin: 5px;
   border: none;
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
   border-radius: 100%;
   background-color: #ffffff;
 }
@@ -497,8 +515,8 @@ p {
   background-color: #2196f3;
 }
 .social-icon {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
   stroke-width: 0;
   stroke: currentColor;
   fill: #afb1b8;
