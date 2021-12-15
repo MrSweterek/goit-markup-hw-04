@@ -174,10 +174,10 @@ p {
   color: #ffffff;
 }
 .main-order-section {
-  position: absolute;
-  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
   height: 600px;
-  top: 80px;
   background-color: #2f303a;
 }
 .stats {
@@ -189,8 +189,8 @@ p {
   justify-content: center;
 }
 .stats-section {
-  height: 980px;
-  padding-top: 680px;
+  padding-top: 50px;
+  height: 350px;
 }
 .stats-list {
   display: inline-block;
