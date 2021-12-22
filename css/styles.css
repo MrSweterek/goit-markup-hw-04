@@ -1,10 +1,7 @@
 body {
-  display: flex;
-  position: relative;
   width: 100%;
   height: 2850px;
   background: #ffffff;
-  justify-content: center;
 }
 h1,
 h2,
@@ -27,16 +24,13 @@ p {
   height: 1800px;
 }
 .menu {
-  position: absolute;
-  width: 1600px;
+  width: 100%;
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
 .menu-nav {
-  position: absolute;
-  width: 1400px;
+  width: 100%;
   height: 80px;
-  left: 150px;
 }
 .menu-list {
   display: flex;
@@ -99,7 +93,7 @@ p {
 .header-tel {
   cursor: pointer;
   text-decoration: none;
-  padding-left: 400px;
+  margin-left: 25em;
 
   font-family: Roboto;
   font-style: normal;
@@ -107,7 +101,7 @@ p {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 .header-tel:hover {
   color: #2196f3;
@@ -123,22 +117,16 @@ p {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 .header-mail:hover {
   color: #2196f3;
 }
 .main {
-  position: absolute;
-  width: 1600px;
-  height: 2600px;
-  top: 80px;
+  width: 100%;
 }
 .main-order-title {
-  position: absolute;
-  margin-top: 180px;
   width: 696px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
@@ -152,8 +140,6 @@ p {
   color: #ffffff;
 }
 .main-order-button {
-  position: absolute;
-  margin-top: 320px;
   width: 200px;
   height: 50px;
   cursor: pointer;
@@ -179,18 +165,16 @@ p {
   align-content: center;
   height: 600px;
   background-color: #2f303a;
+  background-image: url(../images/mainimage.jpg);
 }
 .stats {
-  position: absolute;
-  width: 1600px;
-  height: 150px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .stats-section {
-  padding-top: 50px;
-  height: 350px;
+  height: 200px;
 }
 .stats-list {
   display: inline-block;
@@ -226,13 +210,10 @@ h3 {
   background-color: #f5f4fa;
 }
 .jobs {
-  position: absolute;
-  width: 1600px;
   height: 386px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 50px;
 }
 .jobs-section {
   height: 500px;
@@ -249,8 +230,6 @@ h3 {
   height: 294px;
 }
 .jobs-title {
-  position: absolute;
-  width: 1600px;
   height: 100px;
   font-family: Roboto;
   font-style: normal;
@@ -261,19 +240,15 @@ h3 {
 
   color: #212121;
 }
-.team {
-  position: absolute;
-  display: flex;
-  width: 1600px;
-  height: 500px;
-  padding-top: 150px;
-  align-items: center;
-  justify-content: center;
-}
 .team-section {
-  width: 1600px;
   height: 700px;
   background-color: #f5f4fa;
+}
+.team {
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
 }
 .team-list {
   width: 300px;
@@ -294,8 +269,6 @@ h3 {
   margin-top: 25px;
 }
 .team-title {
-  position: absolute;
-  width: 1600px;
   height: 100px;
   padding-top: 50px;
   justify-content: center;
@@ -314,23 +287,29 @@ h3 {
 }
 .team-text-content {
   width: 300px;
+  font-weight: normal;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 1600px;
+  width: 100%;
   height: 180px;
   background-color: #2f303a;
 }
 .footer-portfolio {
-  position: absolute;
-  bottom: 0px;
-  width: 1600px;
+  width: 100%;
   height: 180px;
+  bottom: 0;
   background-color: #2f303a;
 }
 .footer-logo {
-  padding-left: 150px;
   padding-top: 25px;
 }
 .footer-tel,
@@ -339,8 +318,6 @@ h3 {
   color: rgba(255, 255, 255, 0.6);
 }
 .adress {
-  display: flex;
-  justify-content: start;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -348,62 +325,44 @@ h3 {
   line-height: 24px;
   letter-spacing: 0.03em;
 
-  padding-left: 150px;
   color: #ffffff;
 }
 .filters {
-  position: absolute;
-  width: 50%;
-  height: 54px;
-  left: 25%;
-  top: 174px;
+  display: flex;
+  justify-content: center;
   align-content: center;
 }
 .filter-object {
-  width: 16px;
-  height: 16px;
-  left: 609px;
-  top: 212px;
-  display: inline;
+  width: 121px;
+  height: 38px;
   list-style-type: none;
+  margin: 60px 4px 0 4px;
 }
 .filter-button {
   width: 121px;
   height: 38px;
-  left: 510px;
-  top: 174px;
-
   background-color: #f5f4fa;
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: none;
 }
 .filter-button:hover {
   background-color: #2196f3;
   color: #f5f4fa;
+
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  width: 121px;
-  height: 38px;
 }
 .projects {
-  position: absolute;
   list-style-type: none;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 85%;
-  height: 404px;
-  left: 150px;
-  top: 262px;
+  height: 1548px;
 }
 .project-object {
   width: 370px;
   margin: 15px;
   height: 404px;
-  left: 150px;
-  top: 262px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
@@ -438,15 +397,22 @@ h3 {
   color: #757575;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .clients-section {
-  padding-top: 100px;
   height: 400px;
 }
 .clients-title {
