@@ -174,12 +174,13 @@ p {
   justify-content: center;
 }
 .stats-section {
-  height: 200px;
+  height: 300px;
+  margin-top: 2em;
 }
 .stats-list {
   display: inline-block;
   width: 320px;
-  height: 100px;
+  height: 300px;
   list-style-type: none;
   padding: 25px;
 }
